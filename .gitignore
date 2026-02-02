@@ -5,8 +5,14 @@
 .vscode/
 
 # Build outputs
-main
-wavescope
-*.dSYM/
-*.o
 build/
+*.o
+*.dSYM/
+*.app
+
+# CMake generated
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+compile_commands.json
