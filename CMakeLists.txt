@@ -9,6 +9,9 @@ qt_standard_project_setup()
 
 qt_add_executable(WaveScope
     src/main.cpp
+    src/AudioFileSampler.cpp
 )
+
+target_include_directories(WaveScope PRIVATE include)
 
 target_link_libraries(WaveScope PRIVATE Qt6::Widgets)
